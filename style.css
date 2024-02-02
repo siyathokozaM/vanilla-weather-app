@@ -1,0 +1,79 @@
+.container-fluid {
+  background-image: url(neda-astani-KWTkd7mHqKE-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.weather-info {
+  padding: 10px;
+  max-width: 600px;
+  background: rgb(0, 0, 0, 0.5);
+  color: #fff;
+  font-family: "Merienda", cursive;
+}
+
+.search-input {
+  background: none;
+  color: #fff;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  padding: 5px;
+  font-size: 14px;
+}
+.search-button {
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+.fa-search {
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+.fa-search:hover {
+  color: #f67834;
+}
+
+.city {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.day,
+.minutes,
+.hours,
+.coverage,
+.month,
+.date {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.coverage {
+  font-weight: 600;
+  color: #f67834;
+}
+
+.temp {
+  font-size: 80px;
+  font-weight: 500;
+}
+.w {
+  font-size: 13px;
+}
+
+.humidity,
+.wind,
+.precip {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 5px;
+  color: #f67834;
+}
+
+.low-temp {
+  color: #f67834;
+}
